@@ -1,0 +1,89 @@
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+   font-family: "Poppins", sans-serif;
+
+}
+.contianer{
+     display: grid;
+  grid-template-columns: 1fr;
+
+
+}
+.hero{
+    text-align: center;
+      max-width: 356px;
+      margin: 0 auto;
+   
+       color: hsl(234, 12%, 34%) ;
+
+}
+.hero h1{
+  font-size: 22px;
+}
+.hero span{
+  font-weight :100
+}
+ p{
+  font-size: 12px;
+}
+
+P{
+  color:  hsl(212, 6%, 44%);
+}
+h2{
+         color: hsl(234, 12%, 34%) ;
+
+      font-size: 20px;
+}
+
+.cart{
+    max-width: 350px;
+    width: 90%;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    margin: 1rem auto;
+    height: auto;
+    padding: 16px 23px;
+     border-top: 5px solid var(--color);
+
+}
+.Supervisor {
+  --color: hsl(180, 62%, 55%);
+}
+.Team-Builder {
+  --color: hsl(0, 78%, 62%);
+}
+.Karma {
+  --color: hsl(34, 97%, 64%);
+}
+.Calculator {
+  --color: hsl(212, 86%, 64%);
+}
+.icon-div{
+    display: flex;
+    justify-content: right;
+  
+
+}
+.col{
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+
+@media (min-width: 600px) {
+  .cart {
+    max-width: 350px;
+  }
+.contianer{
+       grid-template-columns: 1fr 1fr 1fr;
+        justify-items: center;
+        align-items: center; 
+
+}}
