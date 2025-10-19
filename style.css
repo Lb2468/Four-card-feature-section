@@ -82,8 +82,30 @@ h2{
     max-width: 350px;
   }
 .contianer{
-       grid-template-columns: 1fr 1fr 1fr;
-        justify-items: center;
-        align-items: center; 
+      
+     
+         grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+ 
+    justify-items: center;
 
-}}
+}
+
+  .Supervisor {
+    grid-row: 1/ 4;
+  }
+
+  .Team-Builder {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+  }
+
+  .Karma {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+  }
+
+  .Calculator {
+    grid-row: 1/ 4;
+  }
+}
